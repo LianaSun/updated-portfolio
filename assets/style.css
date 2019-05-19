@@ -74,7 +74,9 @@ header{
 .img-fluid{
     max-width: 100%;
     height:auto; 
+    float: left;
 }
+
 body{
     margin:0 auto;
     display: flex;
