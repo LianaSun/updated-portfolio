@@ -75,8 +75,16 @@ header{
     max-width: 100%;
     height:auto; 
     float: left;
+    display: inline-block;
+    margin: 25px 10px;
+      }
+      
+.bio{
+    font-weight: 200;
+    font-size: 14px;
+    font-family: 'Questrial', sans-serif;
+    text-align: left;
 }
-
 body{
     margin:0 auto;
     display: flex;
@@ -95,7 +103,9 @@ body{
     font-family: 'Cinzel', serif;
     color: black;
 }
-
+.list{
+    font-family: 'Questrial', sans-serif;
+}
 h3{
     text-align:center;
     position: absolute;
@@ -109,8 +119,14 @@ p {
     font-family: 'Cinzel', serif;
     font-weight: bold;
 }
+
+.projects{
+    font-family: 'Questrial', sans-serif;
+}
 .form-group{
     text-align: left;
+    font-family: 'Questrial', sans-serif;
+
 }
 
 /* Container holding the image and the text */
